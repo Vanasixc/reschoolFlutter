@@ -1,23 +1,5 @@
 import 'package:flutter_1/app.dart';
 
-//class untuk menampung title, icon, dan page mana yang ingin dituju
-class Pages {
-  final String title;
-  final IconData icon;
-  final Widget page;
-
-  const Pages({required this.title, required this.icon, required this.page});
-}
-
-final List<Pages> pages = [
-  // untuk menambahkan halaman baru, tinggal tambahkan Pages() lagi di bawah. urutan menyesuaikan inisialisasi
-  Pages(
-    title: "Layout Column",
-    icon: Icons.view_column,
-    page: const LayoutColumn()
-  )
-];
-
 class Home extends StatelessWidget {
   const Home({super.key});
 
@@ -41,7 +23,7 @@ class Home extends StatelessWidget {
         crossAxisSpacing: 10,
         // children: list.generate itu untuk membuat children sebanyak jumlah item di class Pages. pages.length jumlah pages di class Pages, index itu hitungan 1,2,dst
         children: List.generate(pages.length, (index) {
-          // inisialisasi item dari class Pages
+          // inisialisasi item dari class Pages dari function.dart
           final item = pages[index];
           //inkwell itu untuk membuat item bisa di klik
           return InkWell(

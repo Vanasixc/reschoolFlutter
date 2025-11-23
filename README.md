@@ -1,16 +1,13 @@
-# flutter_1
+# Aplikasi bebarang
 
 A new Flutter project.
 
-## Getting Started
+## Penjelasan
 
-This project is a starting point for a Flutter application.
+Ada beberapa file yang ditambahkan, berupa :
+1. app.dart => berfungsi sebagai wadah untuk exportir. jadi di tiap class tidak perlu menambahkan import macam macam lagi. Cukup import app.dart saja dan semua yang terdata di app.dart langsung terimport
+2. function.dart => berfungsi sebagai class yang menampung function atau class untuk sebuah variable/fungsi tertentu. jadi dalam file.dart untuk membuat halaman bersih. Juga fungsi di class ini dapat dipakai oleh class lain jika dibutuhkan
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tanggal update :
+"22 November 25" => Day1 first commit dan mulia
+"23 November 25' => Day2 untuk menyelesaikan laman layouting
