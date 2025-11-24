@@ -1,14 +1,14 @@
 import 'package:flutter_1/app.dart';
 
-class Home extends StatelessWidget {
-  const Home({super.key});
+class Tasking extends StatelessWidget {
+  const Tasking({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Home"),
-        backgroundColor: Colors.yellow[800],
+        backgroundColor: Colors.red[800],
         foregroundColor: Colors.black,
       ),
       body: GridView.count(
@@ -16,11 +16,11 @@ class Home extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         mainAxisSpacing: 10,
         crossAxisSpacing: 10,
-        children: List.generate(homePages.length, (index) {
-          final item = homePages[index];
+        children: List.generate(task.length, (index) {
+          final item = task[index];
           return InkWell(
             onTap: () {
-              if (index < homePages.length) {
+              if (index < task.length) {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => item.page),

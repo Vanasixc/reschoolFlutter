@@ -10,4 +10,5 @@ Ada beberapa file yang ditambahkan, berupa :
 
 Tanggal update :
 "22 November 25" => Day1 first commit dan mulia
-"23 November 25' => Day2 untuk menyelesaikan laman layouting
+"23 November 25" => Day2 untuk menyelesaikan laman layouting
+"24 November 25" => Day3 menambah halaman home, dan membuat halaman untuk tugas 1 dan 2 (instagram clone). Sekalian menambah assets gambar dan fontstyle

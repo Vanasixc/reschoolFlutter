@@ -4,11 +4,11 @@
 export 'package:flutter/material.dart';
 export 'function.dart';
 
-
 // home
 export 'pages/home.dart';
 
 // layout
+export 'pages/layout/layouting.dart';
 export 'pages/layout/layout_column.dart';
 export 'pages/layout/layout_column_lanjutan.dart';
 export 'pages/layout/layout_row.dart';
@@ -17,5 +17,10 @@ export 'pages/layout/layout_container.dart';
 export 'pages/layout/layout_stack.dart';
 export 'pages/layout/layout_flexible.dart';
 export 'pages/layout/layout_expansible.dart';
+
+// task (tugas)
+export 'pages/tasking/tasking.dart';
+export 'pages/tasking/tugas_1.dart';
+export 'pages/tasking/tugas_2.dart';
 
 

@@ -1,5 +1,4 @@
 // ------------------------------------------ Class ------------------------------------------
-// home
 //class untuk menampung title, icon, dan page mana yang ingin dituju
 import 'app.dart';
 class Pages {
@@ -10,8 +9,25 @@ class Pages {
   const Pages({required this.title, required this.icon, required this.page});
 }
 
-// ------------------------------------------ Variable ------------------------------------------
+
+
+// ------------------------------------------ Pages ------------------------------------------
 // home
+final List<Pages> homePages = [
+  Pages(
+    title: "Layouting",
+    icon: Icons.view_list,
+    page: Layouting()
+    ),
+
+  Pages(
+    title: "Kumpulan Tugas",
+    icon: Icons.task,
+    page: Tasking()
+  )
+];
+
+// layout
 final List<Pages> pages = [
   // untuk menambahkan halaman baru, tinggal tambahkan Pages() lagi di bawah. urutan menyesuaikan inisialisasi
   Pages(
@@ -60,6 +76,20 @@ final List<Pages> pages = [
     title: "Layout Expansible",
     icon: Icons.expand,
     page: const LayoutExpansible()
+  ),  
+];
+
+// tasking
+final List<Pages> task = [
+  Pages(
+    title: "Tugas 1 : Increment/Decrement dan floating action button",
+    icon: Icons.refresh,
+    page: const Tugas1()
   ),
-  
+
+  Pages(
+    title: "Tugas 2 : Instagram Profile Page Clone",
+    icon: Icons.person,
+    page: const Tugas2()
+  )
 ];
