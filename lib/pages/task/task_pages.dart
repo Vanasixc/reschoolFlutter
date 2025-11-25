@@ -7,7 +7,7 @@ class Tasking extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Home"),
+        title: const Text("Tugas"),
         backgroundColor: Colors.red[800],
         foregroundColor: Colors.black,
       ),

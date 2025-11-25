@@ -8,7 +8,7 @@ export 'function.dart';
 export 'pages/home.dart';
 
 // layout
-export 'pages/layout/layouting.dart';
+export 'pages/layout/layout_pages.dart';
 export 'pages/layout/layout_column.dart';
 export 'pages/layout/layout_column_lanjutan.dart';
 export 'pages/layout/layout_row.dart';
@@ -19,8 +19,19 @@ export 'pages/layout/layout_flexible.dart';
 export 'pages/layout/layout_expansible.dart';
 
 // task (tugas)
-export 'pages/tasking/tasking.dart';
-export 'pages/tasking/tugas_1.dart';
-export 'pages/tasking/tugas_2.dart';
+export 'pages/task/task_pages.dart';
+export 'pages/task/tugas_1.dart';
+export 'pages/task/tugas_2.dart';
 
+// profile
+export 'pages/profile/profile_pages.dart';
+export 'pages/profile/profile_page.dart';
+export 'pages/profile/about_page.dart';
+export 'pages/profile/home_page.dart';
 
+// Complex
+export 'pages/complex/complex_pages.dart';
+export 'pages/complex/list_view_statis.dart';
+export 'pages/complex/list_view_dinamis.dart';
+export 'pages/complex/grid_view_statis.dart';
+export 'pages/complex/grid_view_dinamis.dart';
