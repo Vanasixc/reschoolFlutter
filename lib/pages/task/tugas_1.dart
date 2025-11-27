@@ -25,7 +25,6 @@ class _Tugas1State extends State<Tugas1> {
     });
   }
 
-
   void _reloadCounter() {
     setState(() {
       _counter = 0;
@@ -33,13 +32,13 @@ class _Tugas1State extends State<Tugas1> {
     });
   }
 
-  void _cek(){
+  void _cek() {
     setState(() {
-      if(_counter == 0){
+      if (_counter == 0) {
         _angka = "Nol";
-      }else if(_counter % 2 == 0){
+      } else if (_counter % 2 == 0) {
         _angka = "Genap";
-      }else{
+      } else {
         _angka = "Ganjil";
       }
     });
@@ -59,7 +58,7 @@ class _Tugas1State extends State<Tugas1> {
           children: [
             Text("Counter", style: TextStyle(fontSize: 20)),
             Text("$_counter", style: TextStyle(fontSize: 26)),
-            Text("$_angka", style: TextStyle(fontSize: 20))
+            Text(_angka, style: TextStyle(fontSize: 20)),
           ],
         ),
       ),

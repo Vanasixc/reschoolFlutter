@@ -6,6 +6,7 @@ export 'function.dart';
 
 // home
 export 'pages/home.dart';
+export 'main.dart';
 
 // layout
 export 'pages/layout/layout_pages.dart';
@@ -17,6 +18,7 @@ export 'pages/layout/layout_container.dart';
 export 'pages/layout/layout_stack.dart';
 export 'pages/layout/layout_flexible.dart';
 export 'pages/layout/layout_expansible.dart';
+export 'pages/layout/layout_scaffold.dart';
 
 // task (tugas)
 export 'pages/task/task_pages.dart';
@@ -35,3 +37,5 @@ export 'pages/complex/list_view_statis.dart';
 export 'pages/complex/list_view_dinamis.dart';
 export 'pages/complex/grid_view_statis.dart';
 export 'pages/complex/grid_view_dinamis.dart';
+export 'pages/complex/single_scroll.dart';
+export 'pages/complex/custome_scroll.dart';

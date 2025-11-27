@@ -1,6 +1,5 @@
 // ------------------------------------------ Class ------------------------------------------
 //class untuk menampung title, icon, dan page mana yang ingin dituju
-import 'package:flutter_1/pages/layout/layout_scaffold.dart';
 
 import 'app.dart';
 
@@ -141,6 +140,14 @@ final List<Pages> complex = [
     icon: Icons.grid_on_sharp,
     page: GridViewDinamis(),
   ),
+
+  Pages(
+    title: "Single Scroll",
+    icon: Icons.grid_on_sharp,
+    page: SingleScroll(),
+  ),
+
+  Pages(title: "Costume Scroll", icon: Icons.apple, page: CustomeScroll()),
 ];
 
 // ------------------------------------------ Variable ------------------------------------------
