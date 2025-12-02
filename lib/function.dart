@@ -148,6 +148,18 @@ final List<Pages> complex = [
   ),
 
   Pages(title: "Costume Scroll", icon: Icons.apple, page: CustomeScroll()),
+
+  Pages(
+    title: "Theme Material",
+    icon: Icons.thunderstorm_rounded,
+    page: ThemeMaterial(),
+  ),
+
+  Pages(
+    title: "Theme Local",
+    icon: Icons.laptop_mac_outlined,
+    page: ThemeLocal(),
+  ),
 ];
 
 // ------------------------------------------ Variable ------------------------------------------

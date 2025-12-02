@@ -39,3 +39,5 @@ export 'pages/complex/grid_view_statis.dart';
 export 'pages/complex/grid_view_dinamis.dart';
 export 'pages/complex/single_scroll.dart';
 export 'pages/complex/custome_scroll.dart';
+export 'pages/complex/theme_material.dart';
+export 'pages/complex/theme_local.dart';
