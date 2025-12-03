@@ -41,3 +41,4 @@ export 'pages/complex/single_scroll.dart';
 export 'pages/complex/custome_scroll.dart';
 export 'pages/complex/theme_material.dart';
 export 'pages/complex/theme_local.dart';
+export 'pages/complex/gesture_app.dart';

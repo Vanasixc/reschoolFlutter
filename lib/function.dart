@@ -160,6 +160,8 @@ final List<Pages> complex = [
     icon: Icons.laptop_mac_outlined,
     page: ThemeLocal(),
   ),
+
+  Pages(title: "Gesture App", icon: Icons.gesture, page: GestureApp()),
 ];
 
 // ------------------------------------------ Variable ------------------------------------------

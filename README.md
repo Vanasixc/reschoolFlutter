@@ -13,3 +13,4 @@ Tanggal update :
 - "23 November 25" => Day2 untuk menyelesaikan laman layouting
 - "24 November 25" => Day3 menambah halaman home, dan membuat halaman untuk tugas 1 dan 2 (instagram clone). Sekalian menambah assets gambar dan fontstyle
 - "25 November 25" => Day4 (serius udh day4 baru ngulik kompleks jir?) menambah halaman baru untuk pages Complex
+- "2 Desember 35" => Day? Njir w seminggu ada nga megang ginian lagi. ya tapi tanggal 1 kemaren inul cok windows 11 kek kontol akwowk
