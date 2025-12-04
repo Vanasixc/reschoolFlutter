@@ -1,6 +1,8 @@
 // ------------------------------------------ Class ------------------------------------------
 //class untuk menampung title, icon, dan page mana yang ingin dituju
 
+import 'package:flutter_1/pages/complex/kalkulator_textfield.dart';
+
 import 'app.dart';
 
 class Pages {
@@ -161,7 +163,15 @@ final List<Pages> complex = [
     page: ThemeLocal(),
   ),
 
-  Pages(title: "Gesture App", icon: Icons.gesture, page: GestureApp()),
+  Pages(title: "Gesture App", icon: Icons.gesture, page: GesturePage()),
+
+  Pages(title: "Constrain", icon: Icons.construction_sharp, page: Constrain()),
+
+  Pages(
+    title: "Kalkulator",
+    icon: Icons.calculate,
+    page: KalkulatorTextfield(),
+  ),
 ];
 
 // ------------------------------------------ Variable ------------------------------------------
